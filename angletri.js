@@ -20,7 +20,7 @@ function clickHandler(e){
     });
 
     if(sum === 180){
-        outputHere.innerText = "Hurray! Your angles can make triangle...! <br> 🤩";
+        outputHere.innerText = "Hurray! Your angles can make triangle...!  🤩";
     } else {
         outputHere.innerText = "Alas! Your angles could not form Triangle...! Your total sum of angles should be 180. 🤷‍♂️";
     }

@@ -24,16 +24,35 @@ li {
     list-style-type: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 .list {
     /* height: 1vh; */
     margin-top: 2rem;
     background-color: #f55;
-    padding-top: 15%;
+    padding: auto;
     border-radius: 1.5rem;
     display: flexbox;
-    margin-left: 20%;
+    margin: auto;
     text-align: center;
-    padding-bottom: 20%;
+    align-content: center;
+    max-width: 60%;
+    /* padding-bottom: 20%; */
+}
+
+.unordered-list li {
+    margin-left: 15rem;
 }
 
 
+
+@media only screen and (min-width: 768px) {
+    font-size: small;
+    display: block;
+    text-align: center;
+    max-width: 60%;
+    margin: auto;
+    padding: auto;
+}

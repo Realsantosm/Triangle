@@ -1,0 +1,26 @@
+
+body {
+    background-color: orange;
+    display: block;
+    border: #f55 solid 4px;
+    height: 90vh;
+    text-align: center;
+}
+
+.after-main {
+    margin-bottom: 3rem;
+}
+
+button {
+    border-radius: 0.5rem;
+    background-color: orangered;
+    cursor: pointer;
+}
+
+.footer {
+    margin-top: 19rem;
+}
+
+a {
+    text-decoration: none;
+}
