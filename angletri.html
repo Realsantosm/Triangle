@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Angle of triangle</title>
+    <link rel="stylesheet" href="angletri.css">
 </head>
 <body>
     <div class="main-container">
@@ -14,17 +15,20 @@
             </div>
             <h1>Enter the triangles if it makes a Triangle or no ?</h1>
             <form id="form-Triangle">
-                <input type="number" class="inputBox" min="1" max="100" required>First Angle</input>
-                <input type="number" class="inputBox" min="1" max="100" required>Second Angle</input>
-                <input type="number" class="inputBox" min="1" max="100" required>Third Angle</input>
+                <input type="number" class="inputBox" min="1" max="100" placeholder="First angle" required ></input>
+                <input type="number" class="inputBox" min="1" max="100" placeholder="Second Angle" required></input>
+                <input type="number" class="inputBox" min="1" max="100" placeholder="Third Angle" required></input>
             </form>
-
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
             <buton id="submit-btn">Submit</buton>
 
-            <div id="output-here">Output 👇</div>
-            
+            <div id="output-here"><h2 class="output-text">Output 👇</h2></div>
+
         </section>
     </div>
-    
+    <script src="angletri.js"></script>
 </body>
 </html>
