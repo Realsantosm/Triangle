@@ -1,23 +1,17 @@
-//JavaScript for the Area of a Triangle !!!!!!
-
-const areaInputs = document.querySelectorAll('.area-inputs');
+const inputs = document.querySelectorAll('.area-input');
 const areaBtn = document.querySelector('#area-btn');
 const areaOutput = document.querySelector('#area-output');
-
-function baseIntoHeight(base,height){
-    const multiplied = base * height;
-    return multiplied;
+function multiplyBaseAndHeight(base, height) {
+	const multipliedOutput = base * height;
+	return multipliedOutput;
 }
 
-function calculateArea(){
-        const baseIntoHeight = multiplyBaseAndHeight.innerHeight(areaInputs[0].value, areaInputs[1].value);
-        const area = baseIntoHeight / 2;
-        console.log({area});
-        areaOutput.innerText = 'The aArea of a Triangle is ${area} cm^2'
-    
+function calculateArea() {
+	//area = (base * height)/2
+	const basexheight = multiplyBaseAndHeight(inputs[0].value, inputs[1].value);
+	const area = basexheight / 2;
+	console.log({ area });
+	areaOutput.innerText = `The area of the triangle is ${area} cm²`;
 }
 
 areaBtn.addEventListener('click', calculateArea);
-
-
-
