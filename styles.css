@@ -1,58 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
-    padding: 0;
-    /* border-box: #f55 solid 2px; */
-    height: 100vh;
+    background-color: #f55;
     text-align: center;
-    display: block;
-}
+    display: column;
+    box-sizing: border-box;
+    border: #000 solid 5px;
+    height: 95vh;
 
-.box-section {
-    max-width: 80%;
-
-}
-
-/* .body-div {
-    height: 60vh;
-
-} */
-
-li {
-    list-style-type: none;
 }
 
 a {
     text-decoration: none;
+    color: yellow;
+    /* text-decoration: ; */
 }
 
-.list {
-    /* height: 1vh; */
-    margin-top: 2rem;
-    background-color: #f55;
-    padding: auto;
-    border-radius: 1.5rem;
-    display: flexbox;
-    margin: auto;
-    text-align: center;
-    align-content: center;
-    max-width: 60%;
-    /* padding-bottom: 20%; */
-}
-
-.unordered-list li {
-    margin-left: 15rem;
-}
-
-
-
-@media only screen and (min-width: 768px) {
-    font-size: small;
-    display: block;
-    text-align: center;
-    max-width: 60%;
-    margin: auto;
-    padding: auto;
+li {
+    list-style-type: none;
+    background-color: orange;
+    max-width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
