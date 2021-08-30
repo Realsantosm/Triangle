@@ -1,0 +1,9 @@
+
+body {
+    background-color: #f55;
+    justify-content: center;
+    box-sizing: border-box;
+    border: #000 solid 4px;
+    height: 100%;
+    text-align: center;
+}
