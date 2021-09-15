@@ -5,7 +5,7 @@ const submitBtn = document.querySelector('#submit-btn');
 
 let angles=[];
 
-document.addEventListener('click', clickHandler);
+submitBtn.addEventListener('click', clickHandler);
 
 function clickHandler(e){
     e.preventDefault();
