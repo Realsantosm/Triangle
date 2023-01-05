@@ -11,7 +11,7 @@ This project took me long hours to complete as compared to other projects. As ma
 
 
 For `Live Link` Click on the link 👇 <br>
-## [myTriangle](https://emo-pedia.netlify.app/)
+## [myTriangle](https://mera-triangle.netlify.app/)
 
 ### [Portfolio](https://angrysantos.netlify.app/)
 
